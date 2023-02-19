@@ -1,0 +1,6 @@
+vrtx_lang_redirect.settings:
+  title: 'Vrtx translation redirects'
+  description: 'Configure redirects for non-existent content translation.'
+  route_name: vrtx_lang_redirect.default_settings
+  parent: system.admin_config_regional
+  weight: 11

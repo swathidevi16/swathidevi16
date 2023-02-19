@@ -1,0 +1,11 @@
+name: 'Vrtx Translation Redirect'
+type: module
+description: 'Allows users to redirect from non-existent content translation to specific page.'
+package: Multilingual
+core: 8.x
+core_version_requirement: ^8 || ^9
+configure: vrtx_lang_redirect.default_settings
+
+dependencies:
+  - drupal:content_translation
+  - drupal:system (>= 8.5)

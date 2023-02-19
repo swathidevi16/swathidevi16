@@ -1,0 +1,7 @@
+vrtx_lang_redirect.default_settings:
+  path: '/admin/config/regional/vrtx-translation-redirect'
+  defaults:
+    _form: '\Drupal\vrtx_lang_redirect\Form\DefaultSettingsForm'
+    _title: 'Vrtx translation redirects'
+  requirements:
+    _permission: 'administer content translation redirect'

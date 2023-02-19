@@ -1,0 +1,6 @@
+services:
+  redirect_request_subscriber:
+    class: Drupal\vrtx_lang_redirect\EventSubscriber\RedirectRequestSubscriber
+    arguments: ['@config.factory', '@language_manager', '@current_route_match']
+    tags:
+      - { name: event_subscriber }
