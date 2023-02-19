@@ -1,2 +1,2 @@
-I worked on one project which has two(English, Spanish)  languages. Some of the content does not have content in Spanish in that case if user going access Spanish content which does not exist, instead of redirecting to 404 using vrtx_language_redirect helps to redirect to some custom node.
+I worked one of the project which has two(English, Spanish)  languages. Some of the content does not have content in Spanish in that case if user is going access Spanish content which does not exist, instead of redirecting to 404 using vrtx_language_redirect helps to redirect to some custom node.
 This module will reduce the duplicate or rewrite of content in multiple nodes
