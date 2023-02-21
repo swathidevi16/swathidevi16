@@ -5,7 +5,7 @@ module as you would any other custom module. For further information see:
 
 ## CONFIGURATION
 
-From the module settings page, configure the snippet Page  URI.
+From the module settings page, you can configure url which you want to redirect.
 
  * Administration » Configuration » Reginal and language » Vrtx translation redirects 
  * admin/config/regional/vrtx-translation-redirect
